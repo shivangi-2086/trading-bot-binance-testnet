@@ -42,7 +42,7 @@ trading_bot/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/shivangi-2086/trading-bot-binance-testnet.git>
 cd trading_bot
 2️⃣ Create & Activate Virtual Environment
 python3 -m venv venv
@@ -55,8 +55,8 @@ pip install -r requirements.txt
 
 Create a .env file in the project root:
 
-API_KEY=your_binance_testnet_api_key
-API_SECRET=your_binance_testnet_api_secret
+API_KEY= binance_testnet_api_key
+API_SECRET= binance_testnet_api_secret
 
 These should be Binance Futures Testnet credentials, not real account keys.
 
