@@ -50,6 +50,7 @@ source venv/bin/activate
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 ```
+---
 
 🔐 Environment Variables
 
@@ -60,14 +61,20 @@ API_SECRET= binance_testnet_api_secret
 
 These should be Binance Futures Testnet credentials, not real account keys.
 
+---
+
 ▶️ How to Run
+
 Example: Test Orders
 python test_order.py
+
 This will:
 
 - Create a Binance Futures client
 - Place a Market order and a Limit order
 - Print the order request and response
+
+---
 
 🧪 Mock Mode
 
@@ -78,29 +85,42 @@ Mock mode returns a simulated order response and is useful when:
 - API keys are unavailable
 - Network access is restricted
 
+---
+
 📄 Logging & Error Handling
+
 - API errors and exceptions are handled gracefully
 - Logging is implemented for order execution and failures
 - Designed to be easily extendable for file-based logging
 
+---
+
 ⚠️ Important Notes
-This project uses Binance Futures Testnet
-No real trades or real funds are involved
-Intended only for assignment evaluation and learning
+
+- This project uses Binance Futures Testnet
+- No real trades or real funds are involved
+- Intended only for assignment evaluation and learning
+
+---
 
 🚀 Future Improvements 
-CLI input using argparse or Typer
-Additional order types (Stop-Limit, OCO)
-Improved logging configuration
-Simple UI or menu-based CLI
+
+- CLI input using argparse or Typer
+- Additional order types (Stop-Limit, OCO)
+- Improved logging configuration
+- Simple UI or menu-based CLI
+
+---
 
 👤 Author
 
 Shivangi
 (BTech Student | Python & Systems Enthusiast)
 
+---
+
 ✅ Disclaimer
 
-This project is for educational and evaluation purposes only.
-It is not financial advice and should not be used for real trading.
-Demonstrating logic safely
+- This project is for educational and evaluation purposes only.
+- It is not financial advice and should not be used for real trading.
+- Demonstrating logic safely
